@@ -8,3 +8,4 @@ git checkout -           # 回溯1個commit
 git checkout dog         # 切換分支
 git brach                # 查看有多少分支
 git branch dog           #創造分支
+git push origin dog      #本地分支推送到遠端存儲庫
