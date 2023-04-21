@@ -7,16 +7,22 @@
     <title>Document</title>
     <style>
       p {
-        color: red;
+        font-size: 25px;
+        font-weight: bold;
+        font-family: 微軟正黑體;
       }
     </style>
   </head>
   <body>
-    <h1>hi</h1>
-    <p>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab perferendis
-      debitis in aliquid nobis rerum eaque rem laudantium doloribus ipsam cum
-      explicabo, iusto totam doloremque saepe. Rerum odit at eaque.
-    </p>
+    <h1>總有一天會忘記</h1>
+    <hr />
+    <p>git reset --hard # 回溯到未更改前(只有在git commit -m之前才有用)</p>
+    <p>git reset --hard HEAD~1 # 直接銷毀上一個commit</p>
+    <p>git checkout HEAD~2 # 回溯到2個commit</p>
+    <p>git checkout - # 回溯1個commit</p>
+    <p>git checkout dog # 切換分支</p>
+    <p>git brach # 查看有多少分支</p>
+    <p>git branch dog #創造分支</p>
+    <p>git push origin dog #本地分支推送到遠端存儲庫</p>
   </body>
 </html>
